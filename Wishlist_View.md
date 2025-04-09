@@ -15,10 +15,25 @@ Content-Type : application/json
 }
 ```
 ## Response
-```
-Body
+```json
 {
-    "message": 'Success'
+    {
+        "id": "int",
+        "recipeImage": "string",
+        "rating": "int",
+        "recipeName": "string",
+        "time": "int",
+        "category": "string",
+        "ingredients": "string"
+    },{
+        "id": "int",
+        "recipeImage": "string",
+        "rating": "int",
+        "recipeName": "string",
+        "time": "int",
+        "category": "string",
+        "ingredients": "string"
+    }...
 }
 
 ```
