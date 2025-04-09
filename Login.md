@@ -25,7 +25,7 @@ Body
 }
 
 ```
-200 - Created
+200 - Success
 
 400 - Bad Request - Invalid User Details
 

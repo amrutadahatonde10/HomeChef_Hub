@@ -1,6 +1,6 @@
-# User Registration API 
+# WishList Delete API 
 ```
-POST /user/register
+DELETE /user/wishlist/delete
 ```
 
 ### Request Headers
@@ -11,21 +11,21 @@ Content-Type : application/json
 ### Request Body
 ``` json
 {
+    "id": "int",
     "username": "string",
-    "email": "string",
-    "password": "string"
 }
 ```
 ## Response
 ```
 Body
 {
-    "message": 'User registered Successfully!'
+    "message": "Recipe Deleted Successfully!"
 }
 
 ```
 200 - Success
 
-400 - Bad Request - Invalid Registration Information
+400 - Bad Request 
 
 500 - Internal Server Error
+`
