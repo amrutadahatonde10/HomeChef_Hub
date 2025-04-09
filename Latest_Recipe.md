@@ -10,21 +10,17 @@ Content-Type : application/json
 
 ### Request Body
 ```
+{
+}
 ```
 ## Response
 ``` json
-{ 
-   {
-        "id": "int",
-        "recipeImage": "string",
-        "recipeName": "string"
-    }, 
-    {
-        "id": "int",
-        "recipeImage": "string",
-        "recipeName": "string"
-    }...
+{
+    "id": "int",
+    "recipeImage": "string",
+    "recipeName": "string"
 }
+
 ```
 200 - Success
 

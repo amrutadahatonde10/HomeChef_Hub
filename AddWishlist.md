@@ -1,25 +1,26 @@
-# WishList Delete API 
+# WishList Add API 
 ```
-DELETE /user/wishlist/delete
+POST /user/wishlist/add
 ```
 
 ### Request Headers
 ```
 Content-Type : application/json
+Bearer <Token>
+
 ```
 
 ### Request Body
 ``` json
 {
-    "id": "int",
-    "username": "string",
+    "recipe_id": "int"
 }
 ```
 ## Response
 ```
 Body
 {
-    "message": "Recipe Deleted Successfully!"
+    "message": "Recipe Added Successfully!"
 }
 
 ```
@@ -28,4 +29,3 @@ Body
 400 - Bad Request 
 
 500 - Internal Server Error
-`

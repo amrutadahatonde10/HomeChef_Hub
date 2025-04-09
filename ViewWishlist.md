@@ -1,19 +1,19 @@
-# Recipe View By Category API 
+# WishList View API 
 ```
-GET /user/recipe/{category}
+POST /wishlist/view
 ```
 
 ### Request Headers
 ```
 Content-Type : application/json
+Bearer <Token>
 ```
 
 ### Request Body
 ``` 
-{ 
+{
 }
 ```
-
 ## Response
 ```json
 {
@@ -25,6 +25,7 @@ Content-Type : application/json
     "category": "string",
     "ingredients": "string"
 }
+
 ```
 200 - Success
 

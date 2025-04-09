@@ -1,6 +1,6 @@
-# Recipe View By Category API 
+# Recipe View API 
 ```
-GET /user/recipe/{category}
+GET /user/recipe/view
 ```
 
 ### Request Headers
@@ -9,13 +9,13 @@ Content-Type : application/json
 ```
 
 ### Request Body
-``` 
-{ 
+```
+{
 }
 ```
 
 ## Response
-```json
+``` json
 {
     "id": "int",
     "recipeImage": "string",

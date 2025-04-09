@@ -21,7 +21,8 @@ Content-Type : application/json
 Body
 {
     "success": true,
-    "message": "Login successful"
+    "message": "Login successful",
+    "token": "string"
 }
 
 ```
