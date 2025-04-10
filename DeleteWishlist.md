@@ -16,7 +16,7 @@ Content-Type : application/json
 ```
 ## Response
 ```
-200 - ok
+200 - Success
 Body
 {
       "success":true,

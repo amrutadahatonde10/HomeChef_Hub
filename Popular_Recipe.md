@@ -20,10 +20,7 @@ Content-Type : application/json
     "id": "int",
     "recipeImage": "string",
     "rating": "int",
-    "recipeName": "string",
-    "time": "int",
-    "category": "string",
-    "ingredients": "string"
+    "recipeName": "string"
 }
 ```
 200 - Success
