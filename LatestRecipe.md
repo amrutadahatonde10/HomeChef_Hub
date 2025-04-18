@@ -8,7 +8,7 @@ GET /user/recipe/latest
 Content-Type : application/json
 ```
 
-### Request Body
+### Request Body      
 ```
 {
 }
