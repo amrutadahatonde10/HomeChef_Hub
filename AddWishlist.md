@@ -18,6 +18,8 @@ Bearer <Token>
 ```
 ## Response
 ```
+
+
 Body
 {
     "message": "Recipe Added Successfully!"
