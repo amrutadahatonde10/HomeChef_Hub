@@ -1,4 +1,4 @@
-## User Logout API
+## User Logout API 
 ```
 POST /user/logout
 ```
