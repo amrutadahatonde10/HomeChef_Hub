@@ -2,7 +2,7 @@
 ```
 POST /user/wishlist/add
 ```
- 
+  
 ### Request Headers
 ```
 Content-Type : application/json
